@@ -128,7 +128,7 @@ export const FooterCount = (props: ViewType) => {
       css={getStyles('footerCount', props)}
       className={className('footer__count', state)}
     >
-      {activeView} of {totalViews}
+      {activeView} sur {totalViews}
     </Span>
   );
 };
